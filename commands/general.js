@@ -3,8 +3,8 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
+ * @project_name : Dark Nero V-8
+ * @author : Kaveesha Sithum <https://github.com/Kaveeshasithum>
  * @description : Secktor,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
@@ -58,10 +58,10 @@ cmd({
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* secktorbot.tech/repo
-*Group:* secktorbot.tech/support
+*🍁 Repo:* Coming soon
+*Group:* https://bit.ly/3X6PEPS
 *Deploy Your Own:*-
- SecktorBot.tech/youtube`
+ Coming soon`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -69,7 +69,7 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "Dark Nero-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
