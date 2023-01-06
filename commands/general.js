@@ -5,7 +5,7 @@
  It is supplied in the hope that it may be useful.
  * @project_name : Dark Nero V-8
  * @author : Kaveesha Sithum <https://github.com/Kaveeshasithum>
- * @description : Secktor,A Multi-functional whatsapp bot.
+ * @description : Dark Nero V-8,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 
