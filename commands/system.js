@@ -3,9 +3,9 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
+ * @project_name : Dark Nero V-8
+ * @author : Kaveesha Sithum <https://github.com/Kaveeshasithum>
+ * @description : Dark Nero V-8,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 
@@ -47,14 +47,14 @@ cmd({
                 type: 1
             }]
             let buttonMessaged = {
-                image: { url: 'https://secktorbot.onrender.com/' },
+                image: { url: 'https://www.darknero,ga/' },
                 caption: `*_Scan Qr within 15 seconds_*\nYou'll get session id in your log number.`,
                 footer: ` Session`,
                 headerType: 4,
                 buttons: generatebutton,
                 contextInfo: {
                     externalAdReply: {
-                        title: 'Secktor Session',
+                        title: 'Dark Nero V-8 Session',
                         body: 'Get you Session ID',
                         thumbnail: log0,
                         mediaType: 2,
@@ -256,7 +256,7 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by Cyber Yakuza Team.*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
