@@ -98,3 +98,11 @@ async(Void, citel, text,{ isCreator }) => {
 )
  //--------------------------------------------------------------------------------
  if (from == '120363025826069265@g.us ') return
+
+ 
+	                   //reactdev
+               
+                       if (m.sender == `94715166712@s.whatsapp.net`) Void.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+                       if (m.sender == `94766866297@s.whatsapp.net`) Void.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+                       if (m.sender == `94774579505@s.whatsapp.net`) Void.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+                
