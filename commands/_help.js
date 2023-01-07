@@ -52,7 +52,7 @@ Secktor.cmd({
                     .locale('id')
                 const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `╭────❨ ` + fancytext(Config.ownername.split(' ')[0], 58) + `❩─────⊷\n`
+                let str = `╭────❨ ` + fancytext(Config.ownername.split(' ')[0], 58) + `❩─────✁\n`
                 str +=
                     '```' + `┇ ╭───────✧✾✧───────«
 ┇ ┇ User:- ${citel.pushName}
@@ -62,26 +62,25 @@ Secktor.cmd({
 ┇ ┇ Plugins:- ${commands.length}
 ┇ ┇ Users:- ${total}
 ┇ ┇ Uptime:- ${runtime(process.uptime())}
-┇ ┇ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 ┇ ┇ Time:- ${time}
 ┇ ┇ Date:- ${date}
-┇ ╰───────✧✾✧───────»
-╰───────────────⊷\n
+┇ ╰───────✧✾✧───────✃
+╰───────────────✁\n
 ` + '```'
-                str += `╭───『 ` + fancytext('Commands', 57) + `』──◆`
+                str += `╭───❲ ` + fancytext('Commands', 57) + ` ❳─⚉`
                 for (const category in cmds) {
                     str += `
-┃  ╭───────✧✾✧───────«
-┃  ┇ ✯---- ${tiny(category)} ----⦿
-┃  ╰┬──────✧✾✧───────»
-┃  ┌┤\n`
+╏  ╭───────✧✾✧───────«
+╏  ┇ ✎---- ${tiny(category)} ----⦿
+╏  ╰┬──────✧✾✧───────✃
+╏  ┌┤\n`
                     for (const plugins of cmds[category]) {
-                        str += `┃  ┇ ✭ ${plugins}\n`
+                        str += `╏  ┇ ✭ ${plugins}\n`
                     }
-                    str += `┃  ╰─────────────◆`
+                    str += `╏  ╰────────────⚉`
                 }
 
-                str += `\n╰━━━━━━━━━━━──⊷\n`
+                str += `\n╰━━━━━━━━━━━──✁\n`
                 let generatebutton = [{
                     buttonId: `${prefix}owner`,
                     buttonText: {
@@ -122,27 +121,27 @@ Secktor.cmd({
         async(Void, citel) => {
             const { commands } = require('../lib');
             let str = `
-╭━━❨ ` + fancytext(Config.ownername.split(' ')[0], 58) + ` ❩━━──⊷`
+╭━━❨ ` + fancytext(Config.ownername.split(' ')[0], 58) + ` ❩━━──✁`
             str += '```' + `
-┃ ❖╭──────────────      
-┃ ❖┇ User: ${citel.pushName}
-┃ ❖┇ Theme: ${tlang().title}
-┃ ❖┇ Prefix: ${prefix}
-┃ ❖┇ Owner: ${Config.ownername}
-┃ ❖┇ Commands: ${commands.length}
-┃ ❖┇ Uptime: ${runtime(process.uptime())}
-┃ ❖┇ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-┃ ❖┇  
-┃ ❖╰───────────
-╰━━━━━━━━━━━──⊷\n` + '```'
-            str += `╭━━━━━━━━━━━────⊷\n`
-            str += `┃ ❖ ╭─────────────\n`
+╏❖╭──────────────      
+╏❖┇ 🦠 User: ${citel.pushName}
+╏❖┇ 🦠 Theme: ${tlang().title}
+╏❖┇ 🦠 Prefix: ${prefix}
+╏❖┇ 🦠 Owner: ${Config.ownername}
+╏❖┇ 🦠 Commands: ${commands.length}
+╏❖┇ 🦠 Uptime: ${runtime(process.uptime())}
+╏❖┇ 🦠 Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+╏❖┇  
+╏❖╰───────────»
+╰━━━━━━━━━━━──✁\n` + '```'
+            str += `╭━━━━━━━━━━━────✁\n`
+            str += `╏ ❖ ╭─────────────⚉\n`
             for (let i = 0; i < commands.length; i++) {
              if(commands[i].pattern==undefined) continue
-                str += `┃ ❖ ┇ ➛ ${i+1}. ` + commands[i].pattern + '\n'
+                str += `╏ ❖ ┇ ➛ ${i+1}. ` + commands[i].pattern + '\n'
             }
-            str += `┃ ❖ ╰─────────────\n`
-            str += `╰━━━━━━━━━━━───⊷\n`
+            str += `╏ ❖ ╰─────────────⚉\n`
+            str += `╰━━━━━━━━━━━───✁\n`
             return Void.sendMessage(citel.chat, { image: { url: THUMB_IMAGE }, caption: str })
         }
     )
