@@ -261,12 +261,12 @@ cmd({
 *👋 𝗛𝗲𝗹𝗹𝗼, ${citel.pushName}*
 ${alivemessage}
 
-*🍃𝗩𝗲𝗿𝘀𝗶𝗼𝗻 ┉* _0.0.6_
+*🍃𝗩𝗲𝗿𝘀𝗶𝗼𝗻 ┉* _𝗩➑_
 *🍃𝗨𝗽𝘁𝗶𝗺𝗲 ┉* _${runtime(process.uptime())}_
 *🍃𝗩𝗲𝗿𝘀𝗶𝗼𝗻 ┉* _${Config.ownername}_
 *🍃𝗕𝗿𝗮𝗻𝗰𝗵 ┉* _${Config.BRANCH}_
 
-_Type ${prefix}menu for my command list._
+_☬Type ${prefix}menu for my command list._
 
 _Powered by ${Config.ownername}_
 `;
