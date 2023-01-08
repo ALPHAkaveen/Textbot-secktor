@@ -63,7 +63,7 @@ const { tlang, ringtone, cmd,fetchJson, sleep, botpic, getBuffer, pinterest, pre
                  listSerch.push({
                      title: i.title,
                      rowId: `${prefix}ytmp4 ${i.url}`,
-                     description: `Secktor / ${i.timestamp}`
+                     description: `Dark Nero / ${i.timestamp}`
                  })
              }
              const sections = [
