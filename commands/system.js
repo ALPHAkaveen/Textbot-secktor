@@ -250,14 +250,12 @@ cmd({
 *👋 𝗛𝗲𝗹𝗹𝗼, ${citel.pushName}*
 ${alivemessage}
 
-*🍃𝗩𝗲𝗿𝘀𝗶𝗼𝗻 ┉* _𝗩➑_
-*🍃𝗨𝗽𝘁𝗶𝗺𝗲 ┉* _${runtime(process.uptime())}_
-*🍃𝗩𝗲𝗿𝘀𝗶𝗼𝗻 ┉* _${Config.ownername}_
-*🍃𝗕𝗿𝗮𝗻𝗰𝗵 ┉* _${Config.BRANCH}_
+*🍃𝗩𝗲𝗿𝘀𝗶𝗼𝗻 ┉* 𝗩➑
+*🍃𝗨𝗽𝘁𝗶𝗺𝗲 ┉* ${runtime(process.uptime())}
+*🍃𝗢𝘄𝗻𝗲𝗿 ┉* _${Config.ownername}
+*🍃𝗗𝗮𝘁𝗲 ┉* ${date}
 
-_☬Type ${prefix}menu for my command list._
-
-_Powered by ${Config.ownername}_
+COPYRIGHT 2023 DARK NERO.
 `;
             let aliveMessage = {
                 image: {
