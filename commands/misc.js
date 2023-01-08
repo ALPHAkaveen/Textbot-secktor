@@ -1,14 +1,3 @@
-/**
- Copyright (C) 2022.
- Licensed under the  GPL-3.0 License;
- You may not use this file except in compliance with the License.
- It is supplied in the hope that it may be useful.
- * @project_name : Dark Nero V-8
- * @author : Kaveesha Sithum <https://github.com/Kaveeshasithum>
- * @description : Dark Nero V-8,A Multi-functional whatsapp bot.
- * @version 8
- **/
-
 const { tlang, getAdmin, prefix, Config, sck, fetchJson, runtime,cmd } = require('../lib')
  let { dBinary, eBinary } = require("../lib/binary");
 const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
