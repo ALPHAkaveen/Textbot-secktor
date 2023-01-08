@@ -24,8 +24,8 @@
 - Star ⭐ repo if you like Secktor.
 ### Thanks To
 
-- [Yusuf Usta](https://github.com/yusufusta) for Ideas
+- [Nimesh](https://github.com/nimaofficial) for Ideas
 
 ## License
 
-The Secktor is made available under the [GPL-3 license](https://github.com/SamPandey001/Secktor-Md/blob/main/LICENCE). 
+The Dark Nero is made available under the [GPL-3 license](https://github.com/SamPandey001/Secktor-Md/blob/main/LICENCE). 
