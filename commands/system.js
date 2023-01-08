@@ -36,14 +36,14 @@ cmd({
                 type: 1
             }]
             let buttonMessaged = {
-                image: { url: 'https://www.darknero,ga/' },
+                image: { url: 'https://secktorbot.onrender.com/' },
                 caption: `*_Scan Qr within 15 seconds_*\nYou'll get session id in your log number.`,
                 footer: ` Session`,
                 headerType: 4,
                 buttons: generatebutton,
                 contextInfo: {
                     externalAdReply: {
-                        title: 'Dark Nero V-8 Session',
+                        title: 'Secktor Session',
                         body: 'Get you Session ID',
                         thumbnail: log0,
                         mediaType: 2,
@@ -245,17 +245,20 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*🍃𝗔 𝗕𝗼𝘁 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗕𝘆 ┉ 𝗖𝘆𝗯𝗲𝗿 𝗬𝗮𝗸𝘂𝘇𝗮 𝗧𝗲𝗮𝗺.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by Cyber Yakuza Team.*`
             const alivtxt = `
-*👋 𝗛𝗲𝗹𝗹𝗼, ${citel.pushName}*
+*Hello, ${citel.pushName},*
+_This is  ${tlang().title}._
 ${alivemessage}
 
-*🍃𝗩𝗲𝗿𝘀𝗶𝗼𝗻 ┉* 𝗩➑
-*🍃𝗨𝗽𝘁𝗶𝗺𝗲 ┉* ${runtime(process.uptime())}
-*🍃𝗢𝘄𝗻𝗲𝗿 ┉* _${Config.ownername}
-*🍃𝗗𝗮𝘁𝗲 ┉* ${date}
+*Version:-* 8
+*Uptime:-* _${runtime(process.uptime())}_
+*Owner:-* _${Config.ownername}_
+*Branch:-* _${Config.BRANCH}_
 
-COPYRIGHT 2023 DARK NERO.
+_Type ${prefix}menu for my command list._
+
+_Powered by ${Config.ownername}_
 `;
             let aliveMessage = {
                 image: {
