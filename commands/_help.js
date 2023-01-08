@@ -1,3 +1,14 @@
+/**
+ Copyright (C) 2022.
+ Licensed under the  GPL-3.0 License;
+ You may not use this file except in compliance with the License.
+ It is supplied in the hope that it may be useful.
+ * @project_name : Secktor-Md
+ * @author : SamPandey001 <https://github.com/SamPandey001>
+ * @description : Secktor,A Multi-functional whatsapp bot.
+ * @version 0.0.6
+ **/
+
 const os = require('os')
 const moment = require("moment-timezone")
 const fs = require("fs")
@@ -12,7 +23,7 @@ Secktor.cmd({
             alias: ["menu"],
             desc: "Help list",
             category: "general",
-            react: "❤️",
+            react: "🙂",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -44,16 +55,13 @@ Secktor.cmd({
                 let str = `╭────❨ ` + fancytext(Config.ownername.split(' ')[0], 58) + `❩─────✁\n`
                 str +=
                     '```' + `┇ ╭───────✧✾✧───────«
-┇ ┇ User:- ${citel.pushName}
-┇ ┇ Theme:- ${tlang().title}
-┇ ┇ Prefix:- [ ${prefix} ]
-┇ ┇ Owner:- ${Config.ownername}
-┇ ┇ Plugins:- ${commands.length}
-┇ ┇ Users:- ${total}
-┇ ┇ Uptime:- ${runtime(process.uptime())}
-┇ ┇ Time:- ${time}
-┇ ┇ Date:- ${date}
-┇ ╰───────✧✾✧───────✃
+┇ ⦿ User:- ${citel.pushName}
+┇ ⦿ Prefix:- [ ${prefix} ]
+┇ ⦿ Plugins:- ${commands.length}
+┇ ⦿ Users:- ${total}
+┇ ⦿ Time:- ${time}
+┇ ⦿ Date:- ${date}
+┇ 
 ╰───────────────✁\n
 ` + '```'
                 str += `╭───❲ ` + fancytext('Commands', 57) + ` ❳─⚉`
@@ -64,7 +72,7 @@ Secktor.cmd({
 ╏  ╰┬──────✧✾✧───────✃
 ╏  ┌┤\n`
                     for (const plugins of cmds[category]) {
-                        str += `╏  ┇ ✺ ${plugins}\n`
+                        str += `╏✺ ${plugins}\n`
                     }
                     str += `╏  ╰────────────⚉`
                 }
