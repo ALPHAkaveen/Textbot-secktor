@@ -139,24 +139,24 @@
                      url: anu.thumbnail,
                  },
                  caption: `
-                 *┏━━━❬ DarkNeroMD📌❭*
+*┏━━━❬ DarkNeroMD📌❭*
  
-                 ${tlang().title} 
-               │  *Youtube Player* ✨
+${tlang().title} 
+│  *Youtube Player* ✨
               
-              *┃🎬TTitle :* ${anu.title} 
+ *┃🎬TTitle :* ${anu.title} 
               
-              *┃🎲Duration :* ${anu.timestamp} 
+ *┃🎲Duration :* ${anu.timestamp} 
               
-              *┃🍁Viewers:* ${anu.views}
+ *┃🍁Viewers:* ${anu.views}
               
-              *┃🍁Uploaded:* ${anu.ago}
+ *┃🍁Uploaded:* ${anu.ago}
               
-              *┃🔖Author:* ${anu.author.name}
+ *┃🔖Author:* ${anu.author.name}
+                  
+*┃🎲Url :* ${anu.url}
               
-               *┃🎲Url :* ${anu.url}
-              
-              ┗━━━━━━━━━❊
+┗━━━━━━━━━❊
               
               
               
