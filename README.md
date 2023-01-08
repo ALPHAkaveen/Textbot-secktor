@@ -1,9 +1,6 @@
 
 <p align="center"><img src="https://profile-counter.glitch.me/{ALPHAkaveen}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
 
-  <p align="center"> Introducing Secktor,Secktor is designed to bring a whole new level of excitement to your boring WhatsApp use. </p
- 
-- Install [External Plugins](https://github.com/SamPandey001/Secktor-Plugins)
 ## Deployment Methods
 ---
 1. ***Get [SESSION-ID](https://secktoruserbot.onrender.com/) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
