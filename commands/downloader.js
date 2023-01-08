@@ -1,4 +1,15 @@
-const { tlang, ringtone, cmd,fetchJson, sleep, botpic, getBuffer, pinterest, prefix, Config } = require('../lib')
+/**
+ Copyright (C) 2022.
+ Licensed under the  GPL-3.0 License;
+ You may not use this file except in compliance with the License.
+ It is supplied in the hope that it may be useful.
+ * @project_name : Secktor-Md
+ * @author : SamPandey001 <https://github.com/SamPandey001>
+ * @description : Secktor,A Multi-functional whatsapp bot.
+ * @version 0.0.6
+ **/
+
+ const { tlang, ringtone, cmd,fetchJson, sleep, botpic, getBuffer, pinterest, prefix, Config } = require('../lib')
  const { mediafire } = require("../lib/mediafire.js");
  const googleTTS = require("google-tts-api");
  const ytdl = require('ytdl-secktor')
@@ -63,7 +74,7 @@ const { tlang, ringtone, cmd,fetchJson, sleep, botpic, getBuffer, pinterest, pre
                  listSerch.push({
                      title: i.title,
                      rowId: `${prefix}ytmp4 ${i.url}`,
-                     description: `Dark Nero / ${i.timestamp}`
+                     description: `Secktor / ${i.timestamp}`
                  })
              }
              const sections = [
@@ -128,16 +139,29 @@ const { tlang, ringtone, cmd,fetchJson, sleep, botpic, getBuffer, pinterest, pre
                      url: anu.thumbnail,
                  },
                  caption: `
- ╭───────────────✺
- │✰ ${tlang().title} 
- │  *Youtube Player* ✨
- │✰ *Title:* ${anu.title}
- │✰ *Duration:* ${anu.timestamp}
- │✰ *Viewers:* ${anu.views}
- │✰ *Uploaded:* ${anu.ago}
- │✰ *Author:* ${anu.author.name}
- ╰────────────────✺
- ✙ *Url* : ${anu.url}
+                 *┏━━━❬ DarkNeroMD📌❭*
+ 
+                 ${tlang().title} 
+               │  *Youtube Player* ✨
+              
+              *┃🎬TTitle :* ${anu.title} 
+              
+              *┃🎲Duration :* ${anu.timestamp} 
+              
+              *┃🍁Viewers:* ${anu.views}
+              
+              *┃🍁Uploaded:* ${anu.ago}
+              
+              *┃🔖Author:* ${anu.author.name}
+              
+               *┃🎲Url :* ${anu.url}
+              
+              ┗━━━━━━━━━❊
+              
+              
+              
+              
+              
  `,
                  footer: tlang().footer,
                  buttons: buttons,
@@ -267,7 +291,7 @@ const { tlang, ringtone, cmd,fetchJson, sleep, botpic, getBuffer, pinterest, pre
                  listSerch.push({
                      title: i.title,
                      rowId: `${prefix}ytmp3 ${i.url}`,
-                     description: `Dark Nero / ${i.timestamp}`
+                     description: `Secktor / ${i.timestamp}`
                  })
              }
              const sections = [
