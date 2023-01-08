@@ -1,5 +1,5 @@
 
-<p align="center"><img src="https://profile-counter.glitch.me/{ALPHAkaveen}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
+<img src="https://profile-counter.glitch.me/{ALPHAkaveen}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
 
 ## Deployment Methods
 ---
